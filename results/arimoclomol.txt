@@ -1,0 +1,3 @@
+query: (TITLE_ABS:"BubR1" OR TITLE_ABS:"BUB1B" OR TITLE_ABS:"spindle checkpoint" OR TITLE_ABS:"spindle assembly checkpoint") AND TITLE_ABS:"arimoclomol"
+hits: 0
+

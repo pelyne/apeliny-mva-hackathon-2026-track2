@@ -1,0 +1,35 @@
+# Gated data never goes in this repo
+controlled/
+work/
+.env
+.env.*
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+*.bcf
+*.bam
+*.bai
+*.cram
+*.crai
+*.fastq
+*.fastq.gz
+*.docx
+*.xlsx
+patient_hpo.tsv
+*phenotype*.tsv
+Challenge_Clinical_Phenotype*
+# python
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+*.bak
+# more genome, phenotype and document formats
+*.tbi
+*.csi
+*.fq
+*.fq.gz
+*.xls
+*.bed
+*.ped
+*.pdf

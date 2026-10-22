@@ -1,0 +1,7 @@
+query: (TITLE_ABS:"BubR1" OR TITLE_ABS:"BUB1B") AND (TITLE_ABS:"nicotinamide" OR TITLE_ABS:"niacin" OR TITLE_ABS:"nicotinic acid" OR TITLE_ABS:"nicotinamide riboside" OR TITLE_ABS:"NMN" OR TITLE_ABS:"metformin")
+hits: 4
+
+35568294	2022	High-dose metformin induces a low-glucose dependent genotoxic stress.	Food Chem Toxicol
+31787052	2019	Attenuation of Angiotensin II-Induced Hypertension in BubR1 Low-Expression Mice Via Repression of Angiotensin II Receptor 1 Overexpression.	J Am Heart Assoc
+24825348	2014	SIRT2 induces the checkpoint kinase BubR1 to increase lifespan.	EMBO J
+19846757	2010	Polyploidy impairs human aortic endothelial cell function and is prevented by nicotinamide phosphoribosyltransferase.	Am J Physiol Cell Physiol

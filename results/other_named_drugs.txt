@@ -1,0 +1,9 @@
+query: (TITLE_ABS:"BubR1" OR TITLE_ABS:"BUB1B") AND (TITLE_ABS:"geldanamycin" OR TITLE_ABS:"dasatinib" OR TITLE_ABS:"quercetin" OR TITLE_ABS:"everolimus" OR TITLE_ABS:"sirolimus" OR TITLE_ABS:"aspirin" OR TITLE_ABS:"resveratrol")
+hits: 6
+
+41895167	2026	In silico discovery of selective TPX2 and BUB1B inhibitors as novel antimitotic agents in breast cancer therapy.	Comput Biol Chem
+36605099	2022	The Mechanism of Quercetin in the Treatment of Lung Squamous Cell Carcinoma Based on a Protein-Protein Interaction Network.	Evid Based Complement Alternat Med
+36389792	2022	Blood transcriptome analysis revealed the crosstalk between COVID-19 and HIV.	Front Immunol
+19293634	2009	Inhibition of cell proliferation by a resveratrol analog in human pancreatic and breast cancer cells.	Exp Mol Med
+19371599	2009	Heat shock protein inhibitors, 17-DMAG and KNK437, enhance arsenic trioxide-induced mitotic apoptosis.	Toxicol Appl Pharmacol
+20699436	2010	The vascular targeting agent combretastatin-A4 and a novel cis-Restricted {beta}-Lactam Analogue, CA-432, induce apoptosis in human chronic myeloid leukemia cells and ex vivo patient samples including those displaying multidrug resistance.	J Pharmacol Exp Ther
