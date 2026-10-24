@@ -123,7 +123,7 @@ It is also cheap. The filter runs on published mechanism before any wet work, wh
 
 ## Generative AI disclosure
 
-I used three AI tools for literature search, drafting and code: Cursor Pro, Privacy Mode enabled; Claude Pro, training opt-out enabled ("Help improve Claude" off), no feedback provided; and Grok Bot, as an assistant. No raw genome or phenotype file was ever shared with any of them, and none of this data was used for training. Inputs were limited to code, public papers and the two public variant coordinates, chr15:40209701 T>G and chr15:40220612 T>G. I checked every citation in this report by opening its abstract or full text myself.
+I used three AI tools for literature search, drafting and code: Cursor Pro, Privacy Mode enabled; Claude Pro, training opt-out enabled ("Help improve Claude" off), no feedback provided; and Grok Bot, as an assistant. No raw genome or phenotype file was ever shared with any of them, and none of this data was used for training. Inputs were limited to code, public papers and the two public variant coordinates, chr15:40209701 T>G and chr15:40220612 T>G. I checked every citation in this report by opening its abstract or full text myself. For the pitch video, ElevenLabs helped me polish my pronunciation.
 
 ## References
 
