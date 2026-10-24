@@ -123,6 +123,32 @@ More broadly, it applies to any rare-disease repurposing problem where the drug 
 
 It is also cheap. The filter runs on published mechanism before any wet work, which is what makes it usable by a small team with a literature search and an afternoon.
 
+## Methods description
+
+This section follows the organizers' Track 2 methods description template, one answer per question.
+
+**Team name.** apeliny
+
+**Approach in detail (from variant and mechanism to candidates).** I started from my Track 1 answer, two BUB1B variants (one stop-gained, one missense), presumed in trans. From published patient cells I set the disease direction: too little BubR1 and a weak spindle checkpoint, so anything helpful has to push BubR1 up. I then ran a three-question direction filter (which way the disease pushes, which way each drug pushes by its own published mechanism, and whether the sign applies to this gene) on 14 candidates before weighing any evidence. Drugs pushing down were marked "Avoid: wrong direction", drugs with no BubR1 result were marked "Not pursued", and the one pathway with a published BubR1-raising result became the lead path to test. Details are in "The direction filter" and "What I looked for and how".
+
+**Generative AI (required).** Cursor Pro, Privacy Mode enabled; Claude Pro, training opt-out enabled ("Help improve Claude" off), no feedback provided; Grok Bot, as an assistant. Used for literature search, drafting and code. No raw genome or phenotype file was shared with any of them. For the pitch video, ElevenLabs helped me polish my pronunciation.
+
+**Automated or manual.** Mostly manual literature review, supported by LLM-assisted searching and three scripted Europe PMC searches (scripts/literature_search.py). The verdicts are applied and checked by scripts/direction_filter.py, which confirms that no verdict contradicts its direction and that every Down drug in real-world use is marked Avoid.
+
+**Manual review in detail.** For every paper I kept, I opened the PubMed abstract. For North 2014, Baker 2013 (both papers), Baker 2011 and Sieben 2020 I also read the full text and the specific figure or paragraph I cite. Anything I could not verify is labelled UNVERIFIED and kept out of the argument, and one older citation I could not re-fetch was dropped.
+
+**Public or proprietary data.** Only public literature and public regulatory information. No proprietary data sources were used.
+
+**Public sources in detail.** PubMed and Europe PMC (title and abstract searches; the three re-runnable queries returned 4, 6 and 0 hits on 21 Oct 2026), publisher full text for the papers listed above, and the US FDA position on NMN as a dietary supplement. The only case data used were the two variant coordinates from my Track 1 answer.
+
+**Proprietary sources.** None.
+
+**Variant mechanism.** Loss of function. One truncating plus one missense allele in BUB1B is the classic MVA pattern, with low total BubR1 protein and an impaired spindle assembly checkpoint in published patient cells (Hanks 2004; Suijkerbuijk 2010). The pathway disrupted is the spindle checkpoint, and the downstream consequence is chromosome mis-segregation, mosaic aneuploidy and childhood cancer risk. Because checkpoint loss differs across MVA genes (Yost 2017), the direction is set per gene.
+
+**Time or effort.** Part-time work by one person over several weeks in September and October 2026.
+
+**Method abstract.** I treat drug repurposing for BUB1B MVA as a direction problem first and an evidence problem second. The disease lowers BubR1 and weakens the spindle checkpoint, so a useful drug must push BubR1 up; a drug that pushes it down is excluded however strong its trial record elsewhere. I applied a three-question filter to 14 candidates drawn from manual and scripted literature searches, using each drug's own published mechanism. The result is one lead path (NMN, which raised BubR1 through SIRT2 in mice), four candidates marked "Avoid: wrong direction" (nicotinamide, high-dose metformin, checkpoint and DNA damage response inhibitors, mitotic poisons) and nine not pursued for lack of a BubR1 result. I found no market-approved medicine known to raise BubR1, so the lead is a molecule to test in the child's own cells through five ordered, low-cost steps, not a drug to give. Strengths: the filter runs before any wet-lab spending, catches traps such as nicotinamide being treated as a stand-in for NMN, sets its sign per gene, and publishes every row with a direction, a reason and a source so anyone can rerun or challenge it. Limitations: no literature search is complete, so "not pursued" means not yet supported rather than ruled out; the lead evidence comes from mice; and phase and residual BubR1 protein in this child are still to be confirmed.
+
 ## Generative AI disclosure
 
 I used three AI tools for literature search, drafting and code: Cursor Pro, Privacy Mode enabled; Claude Pro, training opt-out enabled ("Help improve Claude" off), no feedback provided; and Grok Bot, as an assistant. No raw genome or phenotype file was ever shared with any of them, and none of this data was used for training. Inputs were limited to code, public papers and the two public variant coordinates, chr15:40209701 T>G and chr15:40220612 T>G. I checked every citation in this report by opening its abstract or full text myself. For the pitch video, ElevenLabs helped me polish my pronunciation.
