@@ -46,6 +46,8 @@ The sign is set per gene from its measured checkpoint, so the same filter does n
 
 Every row in the [candidate table](data/apeliny_track2_candidates.csv) carries a direction, an approval status, a real-world use flag, a PMID and a reason.
 
+> **Not pursued is not ruled out.** These nine have no published evidence of pushing BubR1 the right way yet. Rerun `make search`, and if a new paper shows one raises BubR1, its row moves up through the same filter.
+
 ## The case
 
 Track 2 builds on my Track 1 finding: two *BUB1B* variants on GRCh38, `chr15:40209701 T>G` (stop-gained) and `chr15:40220612 T>G` (missense), about 11 kb apart. It was the only recessive pair left in my preregistered MVA gene panel after my filters, and my phenotype ranking pointed to the same gene. One truncating plus one missense allele is the classic genetic pattern of *BUB1B* MVA, with low BubR1 and a weak spindle checkpoint in published patient cells (Hanks 2004; Suijkerbuijk 2010). The two variants are presumed in trans, which parental testing can confirm.

@@ -71,6 +71,8 @@ The table is a direction check on published mechanism. "Avoid: wrong direction" 
 | Arimoclomol | HSP co-inducer | Approved in the US since September 2024 (Miplyffa, for Niemann-Pick disease type C) | Unknown | none | Not pursued | Approved, but I found no paper linking it to BubR1 or the spindle checkpoint (Europe PMC title and abstract search: 0 hits). An approval in another disease is not a mechanism for this one. |
 | Mitotic poisons (colcemid/colchicine class) | Microtubule agents | Mixed | Down | none | Avoid: wrong direction | Deliberately induce mis-segregation. |
 
+> **Not pursued is not ruled out.** These nine have no published evidence of pushing BubR1 the right way yet. Rerun `make search`, and if a new paper shows one raises BubR1, its row moves up through the same filter.
+
 ## A testable path forward
 
 Of everything I checked, one pathway points the right way with published data behind it. SIRT2, using NAD+, removes an acetyl mark at lysine 668 of BubR1 that otherwise sends the protein to be degraded. Raising NAD+ with NMN increased BubR1 protein in young and old mouse testes, and in mouse cells only when SIRT2 was present (North 2014, PMID 24825348). More BubR1 is protective in mice, with fewer chromosome errors and fewer tumors (Baker 2013, PMID 23242215). That makes NMN the natural lead to test.
